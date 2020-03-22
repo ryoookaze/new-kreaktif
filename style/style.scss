@@ -1,0 +1,503 @@
+@import 'colour.scss';
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css");
+
+.container-fluid {
+    padding: 0 60px !important;
+    @media screen and (max-width: 768px) {
+        padding: 0 30px !important;
+    }
+}
+
+.content-center {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+  
+.content-only-center {
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.title {
+    margin: 50px 0;
+}
+
+.navigation-bar {
+    padding: 30px 0 !important;
+    position: fixed !important;
+    width: 100%;
+    background-color: $white !important;
+    z-index: 9;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 10px 1px 6px rgba(0,0,0,0.23);
+    .navbar-logo {
+        .logo {
+            height: 30px;
+        }
+    }
+    .navbar-menu {
+        @media screen and (max-width: 768px) {
+            display: none;
+        }
+        a {
+            padding: 0 15px;
+            font-size: 15px;
+            &.active {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+/*home*/
+.home {
+    .first-section {
+        height: 100vh;
+        .content {
+            transform: translate(0, 100%);
+            h1 {
+                font-size: 100px;
+            }
+            p {
+                font-size: 25px;
+                font-weight: bold;
+            }
+            .btn-primary {
+                width: 200px;
+                padding: 10px;
+                background-color: $blueColour;
+                border: none;
+            }
+        }
+        .gambar-abstrak {
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 700px;
+        }
+    }
+    .home-pengalaman {
+        position: relative;
+        .judul {
+            margin: 30px 0;
+        }
+        .detail {
+            line-height: 180%;
+            font-size: 18px;
+        }
+        .image-container {
+            text-align: center;
+            .image-experience {
+                height: 500px;
+            }
+        }
+    }
+    .home-layanankami {
+        .judul {
+            margin: 30px 0;
+        }
+        .card {
+            padding: 20px;
+            height: 220px;
+            transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+            &:hover {
+                box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+            }
+            .card-img {
+                width: 50px;
+                &.img-mobile {
+                    width: 33px;
+                }
+            }
+            .card-body {
+                margin-top: 30px;
+                padding: 0;
+            }
+        }
+    }
+    .home-clientkami {
+        .judul {
+            margin: 30px 0;
+        }
+        .content {
+            .client-pertama, .client-kedua, .client-ketiga {
+                .image-background {
+                    width: 100%;
+                }
+                .client-container {
+                    transform: translate(0, 40%);
+                    padding: 0 30px;
+                }
+            }
+        }
+    }
+    .home-ready {
+        .content {
+            background-color: $blueColour;
+            padding: 90px 60px;
+            text-align: center;
+            h1 {
+                font-size: 40px;
+                color: $white;
+            }
+            a {
+                background-color: white;
+                color: $blueColour;
+                padding: 15px;
+                font-weight: bold;
+                width: 200px;
+            }
+        }
+    }
+}
+
+/*about-us*/
+.about-us {
+    .aboutus-cover {
+        height: 100vh;
+        position: relative;
+        .content {
+            position: absolute;
+            top: 40%;
+            @media screen and (max-width: 768px) {
+                position: relative;
+                top: 0;
+                transform: translate(0, 100%);
+            }
+            h1 {
+                font-size: 100px;
+                @media screen and (max-width: 768px) {
+                    font-size: 50px;
+                }
+            }
+            span {
+                font-size: 20px; line-height: 160%;
+                @media screen and (max-width: 768px) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+    .aboutus-sekilas {
+        height: 100vh;
+        @media screen and (max-width: 768px) {
+            height: auto;
+        }
+        .judul {
+            margin: 30px 0;
+        }
+        .aboutus-content {
+            line-height: 180%;
+            font-size: 18px;
+            @media screen and (max-width: 768px) {
+                font-size: 15px;
+            }
+        }
+        .image-container {
+            text-align: center;
+            @media screen and (max-width: 768px) {
+                margin: 40px 0;
+            }
+            .image-aboutus {
+                height: 400px;
+                @media screen and (max-width: 768px) {
+                    height: 200px;
+                }
+            }
+        }
+    }
+    .aboutus-team {
+        .judul {
+            text-align: center;
+            @media screen and (max-width: 768px) {
+                margin: 30px 0;
+            }
+        }
+        .tagline {
+            text-align: center;
+            @media screen and (max-width: 768px) {
+                margin: 30px 0;
+            }
+        }
+        .card {
+            height: 250px;
+            margin-bottom: 25px;
+            .card-img-top {
+                width: 100px;
+                margin: 20px auto;
+            }
+            .card-body {
+                text-align: center;
+            }
+        }
+    }
+}
+
+/*services*/
+.services {
+    .first-content {
+        height: 100%;
+        position: relative;
+        .content {
+            position: absolute;
+            top: 40%;
+            h1 {
+                font-size: 100px;
+                @media screen and (max-width: 768px) {
+                    font-size: 50px;
+                }
+            }
+            p {
+                font-size: 25px;
+                font-weight: bold;
+                @media screen and (max-width: 768px) {
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .second-section {
+        margin-bottom: 100px;
+        .modal {
+            .modal-dialog {
+                max-width: 1000px;
+                .modal-content {
+                    .modal-body {
+                        padding: 0;
+                        .image-container {
+                            overflow: hidden;
+                            img {height: 100%;}
+                        }
+                        .content-container {
+                            padding: 30px;
+                            p {
+                                font-size: 15px;
+                                line-height: 30px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .content {
+            .judul {
+                margin-bottom: 50px;
+            }
+            .col-md-6 {padding: 0;}
+            .card {
+                padding: 30px;
+                height: 350px;
+                margin-bottom: 30px;
+                @media screen and (max-width: 768px) {
+                    height: auto;
+                }
+                .card-img {
+                    &.img-mobile {
+                        width: 35px;
+                    }
+                    width: 50px;
+                }
+                .card-body {
+                    padding: 0;
+                    .card-title {
+                        margin: 20px 0;
+                    }
+                    .card-text {
+                        line-height: 25px;
+                        font-size: 13px;
+                    }
+                }
+                .next-container {
+                    margin-top: 20px;
+                    font-size: 18px;
+                    &:hover {
+                        .next-icon {
+                            transform: translateX(20px);
+                        }
+                    }
+                    .next-icon {
+                        transition: transform 0.4s;
+                        width: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*blog*/
+.blog {
+    height: 100%;
+    position: relative;
+    p {margin: 0;}
+    .blog-container {
+        width: 100%;
+        margin-top: 200px;
+        margin-bottom: 100px;
+        .card {
+            .card-body {
+                .card-date {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-top: 50px;
+                }
+            }
+        }
+    }
+}
+
+/*blog contents*/
+.blog-contents {
+    .content {
+        margin-top: 200px;
+        .image-container {
+            width: 100%;
+            height: 500px;
+            overflow: hidden;
+            position: relative;
+            .image-header {
+                width: 100%;
+                filter: brightness(50%);
+            }
+            .title {
+                position: absolute;
+                bottom: 0;
+                padding: 50px;
+                font-size: 60px;
+                color: $white;
+                z-index: 1;
+            }
+        }
+        .main-content {
+            padding: 0 50px;
+            .date-container {
+                display: flex;
+                justify-content: space-between;
+                margin-top: 50px;
+                .date {
+                    font-weight: bold;
+                    font-size: 18px;
+                }
+                .writer {font-size: 18px;}
+            }
+            .paragraph {
+                .paragraph-content {
+                    font-size: 15px;
+                    line-height: 190%;
+                }
+                .list {
+                    li {list-style-type: none; p{font-size: 15px; line-height: 190%;}}
+                }
+                .image-subsection {
+                    width: 800px;
+                    max-width: 800px;
+                    margin: 50px auto;
+                    .image {
+                        width: 100%;
+                    }
+                    .title-subsection {
+                        text-align: center;
+                        margin: 30px 0;
+                        font-size: 15px;
+                        font-weight: bold;
+                        font-style: italic;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/*portofolio*/
+.portofolio {
+    position: relative;
+    .content-section {
+        padding-top: 200px;
+        .card {
+            overflow: hidden;
+            position: relative;
+            margin-bottom: 35px;
+            background-color: $white;
+            color: 022240;
+            border: 0;
+            .portofolio-image {
+                width: 100%;
+            }
+            .card-content {
+                position: absolute;
+                bottom: 0;
+                padding: 0 0 20px 20px;
+                width: 100%;
+                .first-content {
+                    padding-bottom: 20px;
+                    .text-project {
+                        margin: 0;
+                        font-size: 12px;
+                        text-transform: uppercase;
+                        letter-spacing: 5px;
+                        margin-bottom: 10px;
+                    }
+                }
+                .jenis-layanan {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+/*contact-us*/
+.contact-us {
+    .container-sm {
+        max-width: 720px;
+        .content-form {
+            height: 100vh;
+            transform: translate(0, 20%);
+            .card {
+                padding: 30px;
+                .button-container {
+                    text-align: right;
+                    margin-top: 20px;
+                    button {
+                        width: 200px;
+                        @media screen and (max-width: 768px) {
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    .container-fluid {
+        .content {
+            padding: 40px 0 10px 0;
+            .contact-us {
+                margin: 30px 0;
+            }
+            .navigation {
+                li {
+                    list-style-type: none;
+                    padding: 4px 0;
+                }
+            }
+        }
+        .bottom {
+            .horizontal-line {
+                border-bottom: 2px solid #DFDFDF;
+                width: 100%;
+            }
+            p {
+                padding: 20px 0;
+            }
+        }
+    }
+}
