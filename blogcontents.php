@@ -3,10 +3,9 @@
     <title>Blog</title>
 </head>
 <body>
+    <?php include 'components/navbar.php' ?>
     <section class="blog-contents">
-        <?php include 'components/navbar.php' ?>
         <div class="container-fluid">
-            <div class="row ml-0">
                 <div class="content">
                     <div class="image-container">
                         <h1 class="title">A Detailed Glimpse of UI/UX Design for Competing In The Advance Digital World.</h1>
@@ -42,8 +41,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
         <?php include 'components/footer.php' ?>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery/script.js" type="text/javascript"></script>
 </body>

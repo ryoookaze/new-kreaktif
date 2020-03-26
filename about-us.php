@@ -7,12 +7,10 @@
     <?php include 'components/navbar.php'?>
     <section class="about-us">
         <section class="aboutus-cover">
-            <div class="container-fluid">
-                <div class="content">
-                    <h1>About Us</h1>
-                    <span>Trusted by 20+ clients since 2018, Kreaktif provides software</span> <br>
-                    <span> development services as a solution to your digitization needs.</span>
-                </div>
+            <div class="content">
+                <h1>About Us</h1>
+                <span>Trusted by 20+ clients since 2018, Kreaktif provides software</span> <br>
+                <span> development services as a solution to your digitization needs.</span>
             </div>
         </section>
         <section class="aboutus-sekilas">
@@ -30,10 +28,12 @@
                 </div>
             </div>
         </section>
-        <div class="container-fluid">
-            <section class="aboutus-team">
-                <h1 class="judul">Meet The Team</h1>
-                <p class="tagline">Kami adalah team dari <strong>Product Designer, Web & Mobile Developer</strong>  dan <strong>Machine Learning Engineer</strong></p>
+        <section class="aboutus-team container-fluid">
+            <div class="team-wrapper">
+                <div class="judul-wrapper">
+                    <h1 class="judul">Meet The Team</h1>
+                    <p class="tagline">Kami adalah team dari <strong>Product Designer, Web & Mobile Developer</strong>  dan <strong>Machine Learning Engineer</strong></p>
+                </div>
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card">
@@ -41,7 +41,17 @@
                             <div class="card-body">
                                 <h3 class="nama">Syafrie Dwi Faisal</h3>
                                 <span>CEO</span>
-                                <div class="link-socmed"></div>
+                                <div class="link-socmed">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -51,7 +61,17 @@
                             <div class="card-body">
                                 <h3 class="nama">Syafrie Dwi Faisal</h3>
                                 <span>CEO</span>
-                                <div class="link-socmed"></div>
+                                <div class="link-socmed">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -61,7 +81,17 @@
                             <div class="card-body">
                                 <h3 class="nama">Syafrie Dwi Faisal</h3>
                                 <span>CEO</span>
-                                <div class="link-socmed"></div>
+                                <div class="link-socmed">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -71,7 +101,17 @@
                             <div class="card-body">
                                 <h3 class="nama">Syafrie Dwi Faisal</h3>
                                 <span>CEO</span>
-                                <div class="link-socmed"></div>
+                                <div class="link-socmed">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -81,7 +121,17 @@
                             <div class="card-body">
                                 <h3 class="nama">Syafrie Dwi Faisal</h3>
                                 <span>CEO</span>
-                                <div class="link-socmed"></div>
+                                <div class="link-socmed">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -91,14 +141,26 @@
                             <div class="card-body">
                                 <h3 class="nama">Syafrie Dwi Faisal</h3>
                                 <span>CEO</span>
-                                <div class="link-socmed"></div>
+                                <div class="link-socmed">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </section>
-        </div>
+            </div>
+        </section>
         <?php include 'components/footer.php' ?>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery/script.js" type="text/javascript"></script>
 </body>
 </html>

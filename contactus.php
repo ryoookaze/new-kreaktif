@@ -4,9 +4,10 @@
     <title>Contact Us</title>
 </head>
 <body>
-    <?php include 'components/navbar.php' ?>
+    <?php include 'components/navbar-solid.php' ?>
     <section class="contact-us">
         <div class="container container-sm">
+            <h1 class="title">Let's Talk</h1>
             <div class="content-form">
                 <h1>Contact Us</h1>
                 <p>Contact us via Whatsapp +62 857-3062-2350 (Whatsapp only), email at kreaktifid@gmail.com, or just simply use the form below.</p>
@@ -21,15 +22,15 @@
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Phone Number</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <input type="number" class="form-control" id="exampleInputPassword1" placeholder="Phone Number">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">Tell Us About Your Project</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <input type="text" class="form-control" id="exampleInputPassword1">
                     </div>
                     <div class="form-group">
                         <label for="exampleInputPassword1">How did you hear about us ?</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        <input type="text" class="form-control" id="exampleInputPassword1">
                     </div>
                     <div class="button-container">
                         <button type="submit" class="btn btn-primary">Submit</button>

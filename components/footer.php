@@ -27,7 +27,14 @@
                         <li><a href="#">Contact Us</a></li>
                     </div>
                 </div>
-                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                    <div class="social-media-container">
+                        <i class="fab fa-instagram"></i>
+                        <i class="fab fa-linkedin"></i>
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="bottom">
