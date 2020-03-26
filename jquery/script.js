@@ -12,6 +12,12 @@ $(document).ready(function() {
             $('menu', $(this).parent()).removeClass('active');
             $(this).addClass('active');
         })
+        $(".menu-toggle").click(function(){
+            $(".navbar-mobile-menu").css({"width": "100%"});
+        })
+        $(".close-button").click(function() {
+            $(".navbar-mobile-menu").css({"width": "0"});
+        })
         $('#myModal').on('shown.bs.modal', function () {
             $('#myInput').trigger('focus')
         })
