@@ -10,7 +10,7 @@
         <div class="first-content">
             <div class="content">
                 <h1>Our Services</h1>
-                <p>Complete software development services as a solution to your digitization needs.</p>
+                <span>Complete software development services as a solution to your digitization needs.</span>
             </div>
         </div>
         <div class="second-section">
