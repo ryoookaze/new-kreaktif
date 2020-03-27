@@ -304,15 +304,15 @@ p {
                 &.client-pertama {
                     .client-wrapper {
                         .client-container {
-                            @media screen and (max-width:512px) {
+                            @media screen and (max-width:768px) {
                                 display: grid;
                             }
                             .image-container, .image-container-mobile {
-                                @media screen and (max-width:512px) {
+                                @media screen and (max-width:768px) {
                                     text-align: center;
                                 }
                                 .image-background {
-                                    @media screen and (max-width:512px) {
+                                    @media screen and (max-width:768px) {
                                         display: block;
                                         width: 100%;
                                         transform: none;
@@ -326,7 +326,7 @@ p {
                                 }
                             }
                             .client-content {
-                                @media screen and (max-width:512px) {
+                                @media screen and (max-width:768px) {
                                     padding-top: 40px;
                                 }
                                 .content {

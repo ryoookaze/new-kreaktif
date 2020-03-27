@@ -397,20 +397,20 @@ p {
           transform: translate3d(100px, 0%, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scaleX(1) scaleY(1) scaleZ(1);
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 768px) {
   .home .home-clientkami .content .client.client-pertama .client-wrapper .client-container {
     display: -ms-grid;
     display: grid;
   }
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 768px) {
   .home .home-clientkami .content .client.client-pertama .client-wrapper .client-container .image-container, .home .home-clientkami .content .client.client-pertama .client-wrapper .client-container .image-container-mobile {
     text-align: center;
   }
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 768px) {
   .home .home-clientkami .content .client.client-pertama .client-wrapper .client-container .image-container .image-background, .home .home-clientkami .content .client.client-pertama .client-wrapper .client-container .image-container-mobile .image-background {
     display: block;
     width: 100%;
@@ -429,7 +429,7 @@ p {
   }
 }
 
-@media screen and (max-width: 512px) {
+@media screen and (max-width: 768px) {
   .home .home-clientkami .content .client.client-pertama .client-wrapper .client-container .client-content {
     padding-top: 40px;
   }
