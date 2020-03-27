@@ -10,7 +10,7 @@
         <div class="first-content">
             <div class="content">
                 <h1>Our Services</h1>
-                <p>Forefront Leading Software Development Company</p>
+                <p>Complete software development services as a solution to your digitization needs.</p>
             </div>
         </div>
         <div class="second-section">

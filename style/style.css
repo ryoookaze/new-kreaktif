@@ -163,7 +163,7 @@ p {
 .navigation-bar .navbar-menu a, .navbar-solid .navbar-menu a {
   color: #ffffff;
   padding: 0 15px;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .navigation-bar .navbar-menu a.active, .navbar-solid .navbar-menu a.active {
@@ -448,7 +448,31 @@ p {
   width: 45%;
   border-radius: 4px;
   overflow: hidden;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-size: cover;
+}
+
+.home .home-clientkami .content .client .background-client::after {
+  content: "";
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background: -webkit-gradient(linear, left top, right top, from(#003365), color-stop(40%, #003365), color-stop(70%, #005e99), to(#003c61));
+  background: linear-gradient(90deg, #003365, #003365 40%, #005e99 70%, #003c61);
+}
+
+.home .home-clientkami .content .client .background-client.bg-1 {
+  background-image: url(../assets/website/portofolio-bg1.jpg);
+}
+
+.home .home-clientkami .content .client .background-client.bg-2 {
+  background-image: url(../assets/website/portofolio-bg2.jpg);
+}
+
+.home .home-clientkami .content .client .background-client.bg-3 {
+  background-image: url(../assets/website/portofolio-bg3.jpg);
 }
 
 @media screen and (max-width: 512px) {
@@ -671,7 +695,7 @@ p {
 
 @media screen and (max-width: 768px) {
   .about-us .aboutus-team::before {
-    top: 15rem;
+    top: 18rem;
     height: 85%;
   }
 }
@@ -765,7 +789,6 @@ p {
   color: #ffffff;
   padding: 0 60px;
   width: 100%;
-  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
@@ -837,6 +860,12 @@ p {
   height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .services .second-section .modal .modal-dialog .modal-content .modal-body .image-container {
+    display: none;
+  }
+}
+
 .services .second-section .modal .modal-dialog .modal-content .modal-body .content-container {
   padding: 30px;
 }
@@ -848,6 +877,7 @@ p {
 
 .services .second-section .content .judul {
   margin-bottom: 50px;
+  text-align: center;
 }
 
 .services .second-section .content .card {
@@ -880,7 +910,7 @@ p {
 
 .services .second-section .content .card .card-body .card-text {
   line-height: 25px;
-  font-size: 13px;
+  font-size: 15px;
 }
 
 .services .second-section .content .card .next-container {
@@ -1128,6 +1158,12 @@ p {
   padding: 30px;
 }
 
+@media screen and (max-width: 768px) {
+  .contact-us .container-sm .content-form .card {
+    padding: 20px;
+  }
+}
+
 .contact-us .container-sm .content-form .card .button-container {
   text-align: right;
   margin-top: 20px;
@@ -1192,7 +1228,7 @@ footer .container-fluid .content .social-media-container .fab.fa-twitter {
 @media screen and (max-width: 512px) {
   footer .container-fluid .content .social-media-container .fab.fa-twitter {
     padding-left: 0;
-    padding-right: 10px;
+    padding: 10px;
   }
 }
 

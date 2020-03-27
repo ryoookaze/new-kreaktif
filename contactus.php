@@ -4,9 +4,9 @@
     <title>Contact Us</title>
 </head>
 <body>
-    <?php include 'components/navbar-solid.php' ?>
     <section class="contact-us">
-        <div class="container container-sm">
+        <?php include 'components/navbar-solid.php' ?>
+        <div class="container container-sm container-fluid">
             <h1 class="title">Let's Talk</h1>
             <div class="content-form">
                 <h1>Contact Us</h1>

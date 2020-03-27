@@ -77,7 +77,7 @@
                 </div>
                 <div class="content">
                     <div class="client client-pertama">
-                        <div class="background-client" data-aos="fade-right"></div>
+                        <div class="background-client bg-1" data-aos="fade-right"></div>
                         <div class="client-wrapper">
                             <div class="client-container">
                                 <div class="image-container" data-aos="fade-right" data-aos-delay="100">
@@ -123,10 +123,10 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="background-client" data-aos="fade-right"></div>
+                        <div class="background-client bg-2" data-aos="fade-right"></div>
                     </div>
                     <div class="client client-pertama">
-                        <div class="background-client" data-aos="fade-right"></div>
+                        <div class="background-client bg-3" data-aos="fade-right"></div>
                         <div class="client-wrapper">
                             <div class="client-container">
                                 <div class="image-container" data-aos="fade-right" data-aos-delay="100">

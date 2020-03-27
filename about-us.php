@@ -31,7 +31,7 @@
         <section class="aboutus-team container-fluid">
             <div class="team-wrapper">
                 <div class="judul-wrapper">
-                    <h1 class="judul">Meet The Team</h1>
+                    <h1 class="judul">Meet our best professional team</h1>
                     <p class="tagline">Kami adalah team dari <strong>Product Designer, Web & Mobile Developer</strong>  dan <strong>Machine Learning Engineer</strong></p>
                 </div>
                 <div class="row">
@@ -40,7 +40,7 @@
                             <img class="card-img-top" src="assets/member/Picture1.png" alt="Card image cap">
                             <div class="card-body">
                                 <h3 class="nama">Syafrie Dwi Faisal</h3>
-                                <span>CEO</span>
+                                <span>CEO / Project Manager</span>
                                 <div class="link-socmed">
                                     <a href="#">
                                         <i class="fab fa-instagram"></i>
@@ -59,8 +59,8 @@
                         <div class="card">
                             <img class="card-img-top" src="assets/member/Picture2.png" alt="Card image cap">
                             <div class="card-body">
-                                <h3 class="nama">Syafrie Dwi Faisal</h3>
-                                <span>CEO</span>
+                                <h3 class="nama">Adhi Yoga Muris</h3>
+                                <span>Back End Engineer</span>
                                 <div class="link-socmed">
                                     <a href="#">
                                         <i class="fab fa-instagram"></i>
@@ -79,48 +79,8 @@
                         <div class="card">
                             <img class="card-img-top" src="assets/member/Picture4.png" alt="Card image cap">
                             <div class="card-body">
-                                <h3 class="nama">Syafrie Dwi Faisal</h3>
-                                <span>CEO</span>
-                                <div class="link-socmed">
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="card-img-top" src="assets/member/Picture5.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h3 class="nama">Syafrie Dwi Faisal</h3>
-                                <span>CEO</span>
-                                <div class="link-socmed">
-                                    <a href="#">
-                                        <i class="fab fa-instagram"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-linkedin"></i>
-                                    </a>
-                                    <a href="#">
-                                        <i class="fab fa-twitter"></i>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card">
-                            <img class="card-img-top" src="assets/member/Picture6.png" alt="Card image cap">
-                            <div class="card-body">
-                                <h3 class="nama">Syafrie Dwi Faisal</h3>
-                                <span>CEO</span>
+                                <h3 class="nama">Fathoni Nur Muhammad</h3>
+                                <span>Back End Engineer</span>
                                 <div class="link-socmed">
                                     <a href="#">
                                         <i class="fab fa-instagram"></i>
@@ -139,8 +99,48 @@
                         <div class="card">
                             <img class="card-img-top" src="assets/member/Picture7.png" alt="Card image cap">
                             <div class="card-body">
-                                <h3 class="nama">Syafrie Dwi Faisal</h3>
-                                <span>CEO</span>
+                                <h3 class="nama">Ananda Afryan Gemilang</h3>
+                                <span>Front-end Engineer</span>
+                                <div class="link-socmed">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/member/Picture5.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h3 class="nama">Muiz Hafidz</h3>
+                                <span>Graphic Designer</span>
+                                <div class="link-socmed">
+                                    <a href="#">
+                                        <i class="fab fa-instagram"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                    <a href="#">
+                                        <i class="fab fa-twitter"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/member/Picture6.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h3 class="nama">Eka Fitri Astutik</h3>
+                                <span>Content Writer</span>
                                 <div class="link-socmed">
                                     <a href="#">
                                         <i class="fab fa-instagram"></i>
