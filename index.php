@@ -9,11 +9,11 @@
         <div class="container-fluid">
             <section class="first-section">
                 <div class="content">
-                    <h1 data-aos="fade-right" data-aos-duration="700">Kreaktif</h1>
-                    <p data-aos="fade-right" data-aos-delay="100" data-aos-duration="900">Forefront Leading Software Development Company</p>
-                    <a data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" href="contactus.php" class="btn btn-primary button-utama">Start Your Project</a>
+                    <h1 data-aos="fade-right" >Kreaktif</h1>
+                    <p data-aos="fade-right" >Forefront Leading Software Development Company</p>
+                    <a data-aos="fade-right"  href="contactus.php" class="btn btn-primary button-utama">Start Your Project</a>
                 </div>
-                <img data-aos="fade-left" data-aos-duration="500" src="assets/home-asset.png" class="gambar-abstrak" alt="gambar-abstrak">
+                <img data-aos="fade-left" src="assets/home-asset.png" class="gambar-abstrak" alt="gambar-abstrak">
             </section>
             <section class="home-pengalaman">
                 <div class="row">
@@ -51,7 +51,7 @@
                         </div>
                         <div class="col-md-3" data-aos="zoom-in" data-aos-delay="200">
                             <div class="card">
-                                <img src="assets/intelligence-service.png" alt="Card image cap" class="card-img">
+                                <img src="assets/product-design.png" alt="Card image cap" class="card-img">
                                 <div class="card-body">
                                     <h5 class="card-title">Product Design</h5>
                                     <p class="card-text">We can create a stunning and engaging UI/UX design that equal to your great code.</p>
@@ -60,7 +60,7 @@
                         </div>
                         <div class="col-md-3" data-aos="zoom-in" data-aos-delay="300">
                             <div class="card">
-                                <img src="assets/product-design.png" alt="Card image cap" class="card-img">
+                                <img src="assets/intelligence-service.png" alt="Card image cap" class="card-img">
                                 <div class="card-body">
                                     <h5 class="card-title">Intelligent Solution</h5>
                                     <p class="card-text">We can provide you an intelligence solution to bring your business into another level, leading to better, and faster.</p>
@@ -150,7 +150,7 @@
                     </div>
                 </div>
             </div>                
-            </section>
+        </section>
         <section class="home-ready">
             <div class="content">
                 <h1>Ready to build your project ?</h1>

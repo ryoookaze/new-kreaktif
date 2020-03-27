@@ -1,14 +1,4 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css");
-.container-fluid {
-  padding: 0 80px !important;
-}
-
-@media screen and (max-width: 768px) {
-  .container-fluid {
-    padding: 0 30px !important;
-  }
-}
-
 p {
   font-family: 'IBM Plex Sans';
 }
@@ -69,9 +59,13 @@ p {
   width: 100%;
 }
 
-.navigation-bar, .navbar-solid {
-  padding: 30px 0 !important;
+.navbar {
   position: fixed !important;
+  display: block !important;
+}
+
+.navbar.navigation-bar, .navbar.navbar-solid {
+  padding: 30px 0 !important;
   width: 100%;
   background-color: transparent;
   z-index: 9;
@@ -79,7 +73,7 @@ p {
   transition: background-color 0.5s ease 0s;
 }
 
-.navigation-bar.solid, .navbar-solid.solid {
+.navbar.navigation-bar.solid, .navbar.navbar-solid.solid {
   background-color: #ffffff;
   -webkit-transition: background-color 0.5s ease 0s;
   transition: background-color 0.5s ease 0s;
@@ -87,32 +81,32 @@ p {
           box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 10px 1px 6px rgba(0, 0, 0, 0.23);
 }
 
-.navigation-bar.solid .navbar-menu .menu, .navbar-solid.solid .navbar-menu .menu {
+.navbar.navigation-bar.solid .navbar-menu .menu, .navbar.navbar-solid.solid .navbar-menu .menu {
   color: #003365;
 }
 
-.navigation-bar.solid .navbar-logo .logo-container .title-logo, .navbar-solid.solid .navbar-logo .logo-container .title-logo {
+.navbar.navigation-bar.solid .navbar-logo .logo-container .title-logo, .navbar.navbar-solid.solid .navbar-logo .logo-container .title-logo {
   color: #003365;
 }
 
-.navigation-bar .navbar-logo .logo-container, .navbar-solid .navbar-logo .logo-container {
+.navbar.navigation-bar .navbar-logo .logo-container, .navbar.navbar-solid .navbar-logo .logo-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.navigation-bar .navbar-logo .logo-container .logo, .navbar-solid .navbar-logo .logo-container .logo {
+.navbar.navigation-bar .navbar-logo .logo-container .logo, .navbar.navbar-solid .navbar-logo .logo-container .logo {
   height: 30px;
 }
 
-.navigation-bar .navbar-logo .logo-container .title-logo, .navbar-solid .navbar-logo .logo-container .title-logo {
+.navbar.navigation-bar .navbar-logo .logo-container .title-logo, .navbar.navbar-solid .navbar-logo .logo-container .title-logo {
   padding-left: 3px;
   margin: auto;
   color: #ffffff;
 }
 
 @media screen and (max-width: 768px) {
-  .navigation-bar .navbar-logo.navbar-mobile-wrapper, .navbar-solid .navbar-logo.navbar-mobile-wrapper {
+  .navbar.navigation-bar .navbar-logo.navbar-mobile-wrapper, .navbar.navbar-solid .navbar-logo.navbar-mobile-wrapper {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 3fr;
@@ -130,18 +124,18 @@ p {
   }
 }
 
-.navigation-bar .navbar-logo.navbar-mobile-wrapper .menu-toggle, .navbar-solid .navbar-logo.navbar-mobile-wrapper .menu-toggle {
+.navbar.navigation-bar .navbar-logo.navbar-mobile-wrapper .menu-toggle, .navbar.navbar-solid .navbar-logo.navbar-mobile-wrapper .menu-toggle {
   display: none;
 }
 
 @media screen and (max-width: 768px) {
-  .navigation-bar .navbar-logo.navbar-mobile-wrapper .menu-toggle, .navbar-solid .navbar-logo.navbar-mobile-wrapper .menu-toggle {
+  .navbar.navigation-bar .navbar-logo.navbar-mobile-wrapper .menu-toggle, .navbar.navbar-solid .navbar-logo.navbar-mobile-wrapper .menu-toggle {
     display: -ms-grid;
     display: grid;
   }
 }
 
-.navigation-bar .navbar-logo.navbar-mobile-wrapper .menu-toggle .bar, .navbar-solid .navbar-logo.navbar-mobile-wrapper .menu-toggle .bar {
+.navbar.navigation-bar .navbar-logo.navbar-mobile-wrapper .menu-toggle .bar, .navbar.navbar-solid .navbar-logo.navbar-mobile-wrapper .menu-toggle .bar {
   width: 25px;
   height: 2px;
   background-color: #ffffff;
@@ -150,23 +144,23 @@ p {
   transition: all 0.3s ease-in-out;
 }
 
-.navigation-bar .navbar-logo.navbar-mobile-wrapper .menu-toggle .bar.solid, .navbar-solid .navbar-logo.navbar-mobile-wrapper .menu-toggle .bar.solid {
+.navbar.navigation-bar .navbar-logo.navbar-mobile-wrapper .menu-toggle .bar.solid, .navbar.navbar-solid .navbar-logo.navbar-mobile-wrapper .menu-toggle .bar.solid {
   background-color: #003365;
 }
 
 @media screen and (max-width: 768px) {
-  .navigation-bar .navbar-menu, .navbar-solid .navbar-menu {
+  .navbar.navigation-bar .navbar-menu, .navbar.navbar-solid .navbar-menu {
     display: none;
   }
 }
 
-.navigation-bar .navbar-menu a, .navbar-solid .navbar-menu a {
+.navbar.navigation-bar .navbar-menu a, .navbar.navbar-solid .navbar-menu a {
   color: #ffffff;
   padding: 0 15px;
   font-size: 17px;
 }
 
-.navigation-bar .navbar-menu a.active, .navbar-solid .navbar-menu a.active {
+.navbar.navigation-bar .navbar-menu a.active, .navbar.navbar-solid .navbar-menu a.active {
   font-weight: bold;
 }
 
@@ -319,7 +313,8 @@ p {
 
 @media screen and (max-width: 768px) {
   .home .home-pengalaman .image-container .image-experience {
-    height: 250px;
+    height: 200px;
+    margin-top: 30px;
   }
 }
 
@@ -813,7 +808,7 @@ p {
 
 @media screen and (max-width: 768px) {
   .services .first-content .content span {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
@@ -1150,7 +1145,7 @@ p {
 }
 
 .contact-us .container-sm .content-form {
-  height: 100vh;
+  margin-bottom: 100px;
 }
 
 .contact-us .container-sm .content-form .card {

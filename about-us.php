@@ -97,7 +97,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card">
-                            <img class="card-img-top" src="assets/member/Picture7.png" alt="Card image cap">
+                            <img class="card-img-top" src="assets/member/picture7.png" alt="Card image cap">
                             <div class="card-body">
                                 <h3 class="nama">Ananda Afryan Gemilang</h3>
                                 <span>Front-end Engineer</span>
@@ -137,7 +137,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card">
-                            <img class="card-img-top" src="assets/member/Picture6.png" alt="Card image cap">
+                            <img class="card-img-top" src="assets/member/picture6.png" alt="Card image cap">
                             <div class="card-body">
                                 <h3 class="nama">Eka Fitri Astutik</h3>
                                 <span>Content Writer</span>
