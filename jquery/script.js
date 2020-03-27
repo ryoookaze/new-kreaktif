@@ -1,6 +1,6 @@
 $(document).ready(function() { 
         $(window).scroll(function() {
-            if($(this).scrollTop() > 500) { 
+            if($(this).scrollTop() > 300) { 
                 $('.navigation-bar').addClass('solid');
                 $('.bar').addClass('solid');
             } else if($(this).scrollTop) {

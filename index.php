@@ -11,7 +11,7 @@
                 <div class="content">
                     <h1 data-aos="fade-right" data-aos-duration="700">Kreaktif</h1>
                     <p data-aos="fade-right" data-aos-delay="100" data-aos-duration="900">Forefront Leading Software Development Company</p>
-                    <a data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" href="#" class="btn btn-primary button-utama">Start Your Project</a>
+                    <a data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" href="contactus.php" class="btn btn-primary button-utama">Start Your Project</a>
                 </div>
                 <img data-aos="fade-left" data-aos-duration="500" src="assets/home-asset.png" class="gambar-abstrak" alt="gambar-abstrak">
             </section>
@@ -154,7 +154,7 @@
         <section class="home-ready">
             <div class="content">
                 <h1>Ready to build your project ?</h1>
-                <a href="#" class="btn btn-primary">Start your project</a>
+                <a href="contactus.php" class="btn btn-primary">Start your project</a>
             </div>
         </section>
         <?php include 'components/footer.php' ?>
