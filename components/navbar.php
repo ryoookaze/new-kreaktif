@@ -17,7 +17,7 @@
                 <img src="assets/kreaktif-logo.png" class="logo" alt="logo">
                 <h3 class="title-logo">Kreaktif</h3>
             </div>
-            <a href="#" class="menu-toggle" id="mobile-menu">
+            <a href="#!" class="menu-toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
                 <span class="bar"></span>
