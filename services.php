@@ -46,7 +46,7 @@
                                                         <div class="col-md-8">
                                                             <div class="content-container">
                                                                 <h2 class="title">Web Development</h2>
-                                                                <p>We can develop a user-friendly mobile app to boost your sales through the best user experience for all types of needs. We also can help you to figure out what features and functions to fit your prospective user's needs. We proud to present you a pretty unique, usable, meaningful app end-to-end.</p>
+                                                                <p>We can develop information systems or web-based profiles, both back-end and front-end development. We develop an attractive and responsive visual appearance through a web system with sophisticated technology to satisfy your needs.</p>
                                                                 <div class="speciality">
                                                                     <p>Our Speciality</p>
                                                                     <li>Company Profile</li>

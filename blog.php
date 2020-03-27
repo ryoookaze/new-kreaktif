@@ -28,6 +28,9 @@
             </div>
         </div>
         <?php include 'components/footer.php' ?>
+        <?php include 'components/script.php' ?>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="jquery/script.js" type="text/javascript"></script>
 </body>
 </html>

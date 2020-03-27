@@ -1,11 +1,13 @@
 $(document).ready(function() { 
         $(window).scroll(function() {
-            if($(this).scrollTop() > 300) { 
+            if($(this).scrollTop() > 100) { 
                 $('.navigation-bar').addClass('solid');
                 $('.bar').addClass('solid');
             } else if($(this).scrollTop) {
                 $('.navigation-bar').removeClass('solid');
                 $('.bar').removeClass('solid');
+            } else if($('.contact-us').scrollTop > 10) {
+                $('.bar').addClass('solid');
             }
         });
         $(".menu").click(function() {
